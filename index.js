@@ -148,7 +148,7 @@ class ModernizrPlugin {
 
     getOutputFilename(
         buildOptions,
-        filehash,
+        fileHash,
         compilation
     ) {
         const filename = buildOptions.filename;
